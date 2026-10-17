@@ -10,11 +10,11 @@
 <body>
     <div class="container py-4">
         <nav class="navbar">
-            <a class="navbar-brand text-decoration-none" href="#">Home</a>
+            <a class="navbar-brand text-decoration-none" href="{{ site_url('/') }}">Home</a>
             <button class="btn" type="button">ingles</button>
             <button class="btn" type="button">español</button>
-            <a class="text-decoration-none" href="#">Iniciar seción</a>
-            <a class="text-decoration-none"  href="#">Registrarse</a>
+            <a class="text-decoration-none" href="{{ site_url('IniciarSesion') }}">Iniciar seción</a>
+            <a class="text-decoration-none"  href="{{ site_url('registro') }}">Registrarse</a>
         </nav>
    </div>
 
