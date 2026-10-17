@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return $this->blade->run('Proyecto.mensajeBienvenida');
     }
+
+    public function Registro(): string 
+    {
+        return $this->blade->run('Proyecto.registrarse');
+    }
+
+    public function IniciarSesion(): string 
+    {
+        return $this->blade->run('Proyecto.iniciarSesion');
+    }
 }

@@ -1,0 +1,29 @@
+<?php  $this->startComponent('Proyecto.home', array('titulo' => "IniciarSesion")); ?>
+
+<div class="card m-3 p-5">
+ <h2 class="text-center card-title">Iniciar sesión</h2>
+ <form class="needs-validation">
+ <div class="mb-5">
+ <label class="form-label">Correo</label>
+ <input type="text" class="form-control" placeholder="Ingrese su correo electrónico" required>
+ </div> 
+ <div class="mb-5">
+ <label class="form-label">Contraseña</label>
+ <input type="text" class="form-control" placeholder="Ingrese contraseña" required>
+ </div>
+ <div class="form-field mb-5">
+ <input type="checkbox" class="check" />
+ <label>Recordarme</label>
+ </div>
+ <div class="grid grid-cols-2">
+ <div class="d-grid gap-2">
+ <button type="submit" class="btn-solid theme-primary">Registrarme</button>
+ </div>
+ <div class="d-grid gap-2">
+ <a class="text-decoration-none" href="#">Recuperar contraseña</a>
+ </div>
+ </div>
+ </form>
+</div>
+
+<?php echo $this->renderComponent(); ?>

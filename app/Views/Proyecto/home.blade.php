@@ -10,7 +10,7 @@
 <body>
     <div class="container py-4">
         <nav class="navbar">
-            <a class="navbar-brand text-decoration-none" href="http://localhost/Proyecto/public/">Home</a>
+            <a class="navbar-brand text-decoration-none" href="#">Home</a>
             <button class="btn" type="button">ingles</button>
             <button class="btn" type="button">español</button>
             <a class="text-decoration-none" href="#">Iniciar seción</a>
