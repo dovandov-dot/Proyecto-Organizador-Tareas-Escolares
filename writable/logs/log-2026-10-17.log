@@ -1084,3 +1084,120 @@ in VENDORPATH\eftec\bladeone\lib\BladeOne.php on line 1655.
  9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:20:59 --> RuntimeException: Template not found: C:\xampp\htdocs\Proyecto\app\Views/Proyecto.mensajeBienvenida
+[Method: GET, Route: /]
+in VENDORPATH\eftec\bladeone\lib\BladeOne.php on line 1431.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1390): eftec\bladeone\BladeOne->getCompiledFile('Proyecto.mensajeBienvenida')
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1281): eftec\bladeone\BladeOne->compile('Proyecto.mensajeBienvenida', true)
+ 3 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 4 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:24:49 --> ParseError: syntax error, unexpected token "!", expecting ")"
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec on line 22.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec', [...])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1240): eftec\bladeone\BladeOne->runInternal('Proyecto.home', [...], false, false)
+ 3 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2337): eftec\bladeone\BladeOne->runChild('Proyecto.home', [...])
+ 4 ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec(3): eftec\bladeone\BladeOne->renderComponent()
+ 5 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1655): include('C:\\xampp\\htdocs\\Proyecto\\writable\\cache\\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec')
+ 6 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 7 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 8 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:24:56 --> ParseError: syntax error, unexpected token "!", expecting ")"
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec on line 22.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec', [...])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1240): eftec\bladeone\BladeOne->runInternal('Proyecto.home', [...], false, false)
+ 3 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2337): eftec\bladeone\BladeOne->runChild('Proyecto.home', [...])
+ 4 ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec(3): eftec\bladeone\BladeOne->renderComponent()
+ 5 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1655): include('C:\\xampp\\htdocs\\Proyecto\\writable\\cache\\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec')
+ 6 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 7 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 8 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:30:12 --> ParseError: syntax error, unexpected token "!", expecting ")"
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec on line 22.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec', [...])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1240): eftec\bladeone\BladeOne->runInternal('Proyecto.home', [...], false, false)
+ 3 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2337): eftec\bladeone\BladeOne->runChild('Proyecto.home', [...])
+ 4 ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec(3): eftec\bladeone\BladeOne->renderComponent()
+ 5 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1655): include('C:\\xampp\\htdocs\\Proyecto\\writable\\cache\\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec')
+ 6 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 7 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 8 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:30:29 --> ParseError: syntax error, unexpected token "!", expecting ")"
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec on line 22.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.home_43b87a3343e49593a11c20cc6a02fe4823418766.bladec', [...])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1240): eftec\bladeone\BladeOne->runInternal('Proyecto.home', [...], false, false)
+ 3 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2337): eftec\bladeone\BladeOne->runChild('Proyecto.home', [...])
+ 4 ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec(3): eftec\bladeone\BladeOne->renderComponent()
+ 5 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1655): include('C:\\xampp\\htdocs\\Proyecto\\writable\\cache\\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec')
+ 6 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 7 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 8 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:37:48 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec on line 3.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 3 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:38:00 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec on line 3.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 3 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-17 07:38:05 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: /]
+in ROOTPATH\writable\cache\Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec on line 3.
+ 1 VENDORPATH\eftec\bladeone\lib\BladeOne.php(1289): eftec\bladeone\BladeOne->evaluatePath('C:\\xampp\\htdocs\\Proyecto\\writable\\cache/Proyecto.mensajeBienvenida_c511d5fb66efb490605707c4fa121213f4ccb1b3.bladec', [])
+ 2 VENDORPATH\eftec\bladeone\lib\BladeOne.php(2218): eftec\bladeone\BladeOne->runInternal('Proyecto.mensajeBienvenida', [], true, false)
+ 3 APPPATH\Controllers\Home.php(9): eftec\bladeone\BladeOne->run('Proyecto.mensajeBienvenida')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

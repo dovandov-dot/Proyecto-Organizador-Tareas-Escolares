@@ -1,0 +1,5 @@
+@component('Proyecto.home', array('titulo' => "Home"))
+
+<h1>Bienvenido al organizador de tareas escolar</h1>
+
+@endcomponent
