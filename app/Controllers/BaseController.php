@@ -8,7 +8,7 @@ use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
-use Jenssegers\Blade\Blade;
+use eftec\bladeone\BladeOne;
 
 /**
  * BaseController provides a convenient place for loading components
@@ -45,8 +45,12 @@ abstract class BaseController extends Controller
 
         // Caution: Do not edit this line.
         parent::initController($request, $response, $logger);
+        
+        $views = APPPATH . 'Views';
+        $cache = WRITEPATH  . 'cache'; 
 
         // Preload any models, libraries, etc, here.
         // $this->session = service('session');
-        $this->blade = new Blade(APPPATH . 'Views', APPPATH  . 'Cache');
+        $this->blade = new BladeOne($views,$cache,BladeOne::MODE_DEBUG);
+    }
 }

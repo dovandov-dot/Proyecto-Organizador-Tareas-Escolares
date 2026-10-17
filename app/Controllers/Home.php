@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('Proyecto/layoutpagBienvenida');
+        $dato = ['titulo' => 'home'];
+        return $this->blade->run('Proyecto.home', $dato);
     }
 }
